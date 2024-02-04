@@ -1,6 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "create-tangjin-app",
   "version": "0.1.0",
+  "description": "tangjin's project boilerplate",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,6 +9,19 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watch --passWithNoTests"
+  },
+  "bin": {
+    "create-tangjin-app": "./bin/generate-app.js"
+  },
+  "keywords": ["boilerplate","starter"],
+  "author": "tangjin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tangjinlog/boilerplate.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tangjinlog/boilerplate/issues"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
