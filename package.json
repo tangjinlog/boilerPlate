@@ -10,10 +10,6 @@
     "lint": "next lint",
     "test": "jest --watch --passWithNoTests"
   },
-  "bin": {
-    "create-tangjin-app": "./bin/generate-app.js"
-  },
-  "keywords": ["boilerplate","starter"],
   "author": "tangjin",
   "repository": {
     "type": "git",
