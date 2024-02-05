@@ -12,7 +12,6 @@
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"jsx": "preserve",
-		"jsxImportSource": "@emotion/react",
 		"incremental": true,
 		"baseUrl": "./src",
 		"paths": {
@@ -30,12 +29,6 @@
 			"@test/*": ["./test/*"],
 		},
 	},
-	"include": [
-		"next-env.d.ts",
-		"**/*.ts",
-		"**/*.tsx",
-		"jest.setup.js",
-		"jest.config.js",
-	],
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.setup.js"],
 	"exclude": ["node_modules"],
 }
